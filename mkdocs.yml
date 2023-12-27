@@ -1,10 +1,10 @@
 site_name: CSP Security Services Best Practices
 repo_name: sepand/sepand.github.io
-repo_url: https://github.com/sepand/sepand.github.io
+repo_url: https://github.com/sepand/security-services-best-practices
 docs_dir: 'docs/en'
 copyright: 'Copyright &copy; Sepand'
 site_author: 'Sepand'
-site_url: 'https://sepand.github.io/sepand.github.io'
+site_url: 'https://sepand.github.io/security-services-best-practices'
 theme:
   name: material
   custom_dir: overrides
