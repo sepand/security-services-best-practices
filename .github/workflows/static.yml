@@ -1,0 +1,30 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: deploy to mkdocs
+
+# the two different ways to trigger the workflow
+on:
+  # enable manual trigger button in github actions web
+  workflow_dispatch:
+
+  # enable auto trigger based on both path and branch
+  push:
+
+    # only main branch
+    branches:
+      - main
+      - master
+
+    # at least one changed file must match this path
+    #paths:
+      #- '**/*.md'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material mkdocs-static-i18n==1.2.0
+      - run: mkdocs gh-deploy --force
