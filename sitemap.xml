@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://sepand.github.io/security-services-best-practices/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sepand.github.io/security-services-best-practices/guides/aws/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sepand.github.io/security-services-best-practices/guides/azure/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
