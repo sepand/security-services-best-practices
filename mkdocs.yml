@@ -33,3 +33,4 @@ nav:
 
 plugins:
     - search
+    - codeinclude
